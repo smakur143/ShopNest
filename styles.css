@@ -417,11 +417,81 @@ body {
   height: 70vh;
   width: 100%;
   background-color: #f6c4927f;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.upper{
+  height: 50%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
 }
 
-.np-text {
+
+.lower{
+  height: 50%;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pro1{
+  background-color: white;
+  width: 25%;
+  height: 100%;
+}
+
+.product_store{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding:  20px;
+}
+
+.store{
+  height: 100%;
+  width: 33.3333%;
+  background-color: aliceblue;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pro2{
+  background-color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.brand-banner{
+  height: 55vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  margin: 20px;
+  position: relative;
+}
+.ban-text{
+  height:100%;
+  width: 40%;
+  position: absolute;
+  right: 0px;
   
+}
+.ban-text h3{
+  color: white;
+}
+
+.ban_text h6{
+  color: white;
 }
 
 
