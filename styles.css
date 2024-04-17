@@ -494,6 +494,37 @@ body {
   color: white;
 }
 
+.best-seller{
+  height: 50vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 25px;
+}
+
+.bs1{
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.top-deals{
+    height: 50vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 25px;
+}
+
+.bs2{
+  width: 20%;
+  height: 100%;
+  background-color: #fff;
+}
 
 
 
