@@ -230,7 +230,10 @@ body {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("photos/mobiles.png");
+  background-image: url("photos/iphone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #303030;
@@ -245,7 +248,10 @@ body {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("photos/collections.png");
+  background-image: url("photos/fashion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #303030;
@@ -260,7 +266,10 @@ body {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("photos/electronics.png");
+  background-image: url("photos/electronics.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #303030;
@@ -423,7 +432,7 @@ body {
 .upper{
   height: 50%;
   width: 100%;
-  background-color: red;
+  background-color: #f6c4927f;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -434,7 +443,7 @@ body {
 .lower{
   height: 50%;
   width: 100%;
-  background-color: blue;
+  background-color: #f6c4927f;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -442,11 +451,28 @@ body {
 }
 
 .pro1{
-  background-color: white;
+
   width: 25%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+.img-pro{
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  object-position: centre;
+  
+}
+.pro1-text{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .product_store{
   height: 100vh;
   width: 100%;
