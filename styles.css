@@ -437,6 +437,12 @@ body {
   justify-content: space-around;
   gap: 20px;
 }
+/* @media only screen and (max-width: 768px) {
+  .overflow-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* overflow-y: auto; Enable vertical scrolling */
+    /* white-space: nowrap; Prevent text from wrapping */
+  /* } */ */
 .dress-card{
   display: flex;
   flex-direction: column;
